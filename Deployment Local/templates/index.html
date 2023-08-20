@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> AI Based Email Subject Generator | Team 3 </title>
+    <link rel="stylesheet" href="./static/style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="team details">
+          <i class="fa fa-users"></i>
+          <div class="topic">Team 3</div>
+          <div class="text-one">Ayush Mahansaria, Anil Sharma</div>
+          <div class="text-two">Hema Passi, Sanidhya Vijaywat</div>
+        </div>
+        <div class="model details">
+          <i class="fas fa-laptop-code"></i>
+          <div class="topic">Model</div>
+          <div class="text-one">fine tuned gpt2-medium</div>
+        </div>
+        <div class="email details">
+          <i class="fa fa-database"></i>
+          <div class="topic">Dataset</div>
+          <div class="text-one">AESLC</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">AI Based Email Subject Generator</div>
+        <p class="topic-text-two">To generate subject for your email, copy/paste or type email in the box and click on Generate Subject</p>
+      <form action="/subject" method="post">
+        <div class="input-box">
+          <textarea placeholder="Enter email..." value="" name="email">{{email}}</textarea>
+        </div>
+        <div class="input-box message-box">
+        </div>
+        <p class="topic-text-three">Subject: {{subject}} </p>
+        <div class="button">
+          <input type="submit" value="Generate Subject" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
