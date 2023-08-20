@@ -45,3 +45,7 @@ qadataset-capstone-group3_v8.ipynb - GPT2 model fine tune - https://github.com/q
 Deployment on cloud was done using Hugging Face Spaces and Gradio
 
 https://github.com/quakthemaster/Question-Answer-Query-System/tree/5bab7f5a4464c49ccb9972dde08ef7afde43b2bc/Deployment%20on%20Hugging%20Faces
+
+## Deployed model can be accessed at 
+
+https://huggingface.co/spaces/Augustya/ai-subject-answer-generator
